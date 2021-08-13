@@ -1,26 +1,26 @@
 self.importScripts('data/games.js');
 
 // Files to cache
-const cacheName = 'js13kPWA-v1';
+const cacheName = 'v1';
 const appShellFiles = [
-  '/pwa-playground/js13kpwa/',
-  '/pwa-playground/js13kpwa/index.html',
-  '/pwa-playground/js13kpwa/app.js',
-  '/pwa-playground/js13kpwa/style.css',
-  '/pwa-playground/js13kpwa/fonts/graduate.eot',
-  '/pwa-playground/js13kpwa/fonts/graduate.ttf',
-  '/pwa-playground/js13kpwa/fonts/graduate.woff',
-  '/pwa-playground/js13kpwa/favicon.ico',
-  '/pwa-playground/js13kpwa/img/js13kgames.png',
-  '/pwa-playground/js13kpwa/img/bg.png',
-  '/pwa-playground/js13kpwa/icons/icon-32.png',
-  '/pwa-playground/js13kpwa/icons/icon-64.png',
-  '/pwa-playground/js13kpwa/icons/icon-96.png',
-  '/pwa-playground/js13kpwa/icons/icon-128.png',
-  '/pwa-playground/js13kpwa/icons/icon-168.png',
-  '/pwa-playground/js13kpwa/icons/icon-192.png',
-  '/pwa-playground/js13kpwa/icons/icon-256.png',
-  '/pwa-playground/js13kpwa/icons/icon-512.png',
+  '/pwa-playground/',
+  '/pwa-playground/index.html',
+  '/pwa-playground/app.js',
+  '/pwa-playground/style.css',
+  '/pwa-playground/fonts/graduate.eot',
+  '/pwa-playground/fonts/graduate.ttf',
+  '/pwa-playground/fonts/graduate.woff',
+  '/pwa-playground/favicon.ico',
+  '/pwa-playground/img/js13kgames.png',
+  '/pwa-playground/img/bg.png',
+  '/pwa-playground/icons/icon-32.png',
+  '/pwa-playground/icons/icon-64.png',
+  '/pwa-playground/icons/icon-96.png',
+  '/pwa-playground/icons/icon-128.png',
+  '/pwa-playground/icons/icon-168.png',
+  '/pwa-playground/icons/icon-192.png',
+  '/pwa-playground/icons/icon-256.png',
+  '/pwa-playground/icons/icon-512.png',
 ];
 const gamesImages = [];
 for (let i = 0; i < games.length; i++) {
