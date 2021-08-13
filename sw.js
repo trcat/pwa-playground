@@ -1,5 +1,7 @@
 self.importScripts('data/games.js');
 
+console.log(self)
+
 // Files to cache
 const cacheName = 'js13kPWA-v1';
 const appShellFiles = [
