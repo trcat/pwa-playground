@@ -1,7 +1,7 @@
 self.importScripts("data/games.js");
 
 // Files to cache
-const cacheName = "v2";
+const cacheName = "v3";
 const appShellFiles = [
   "/pwa-playground/",
   "/pwa-playground/index.html",
